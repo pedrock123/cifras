@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: Royalacid;
+    src: url(../fonts/royal_acidbath/Royalacid_o.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #201b2c;
+}
+
+header.menu-conteiner{
+    background-color: #313131;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+
+}
+
+div.img-menu-cabeçalho img{
+    width: 150px;
+    justify-content: start;
+}
+
+div.select-menu{
+    display: flex;
+    flex-direction: row;
+    white-space: 10px;
+    justify-content: start;
+    gap: 20px;
+
+}
+
+div.select-menu > a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 1.2px;
+} 
+
+div.select-menu > a:hover{
+    background-color: #383838;
+}
+
+.main-login{
+    width: 100vw;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.left-login img{
+    position: static;
+    top: 150px;
+    width: 65%;
+}
+
+.right-login{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.329);
+}
+
+.card-login > h2{
+    color: #00ff88;
+    font-weight: 800;
+    font-size: 3em;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.253);
+}
+
+.textfield label{
+    color:  #f0ffffde;
+    margin-bottom: 7px;
+
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: #00ff88;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #2b134b;
+    font-weight: 800;
+    letter-spacing: 3;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+@media screen and (min-width: 1250px){
+    
+.right-login{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.329);
+}
+
+.card-login > h2{
+    color: #00ff88;
+    font-weight: 800;
+    font-size: 3em;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.253);
+}
+
+.textfield label{
+    color:  #f0ffffde;
+    margin-bottom: 7px;
+
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: #00ff88;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #2b134b;
+    font-weight: 800;
+    letter-spacing: 3;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+}
