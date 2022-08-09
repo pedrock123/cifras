@@ -63,7 +63,7 @@ div.select-menu > a:hover{
 .main-login{
     margin: auto;
     max-width: 1200px;
-    min-width: 800px;
+    min-width: 100vw;
     background-color: #201b2c;
     display: flex;
     justify-content: center;
